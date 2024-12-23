@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font: 1em sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* display: flex; */
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 15px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    border-radius: 8px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 220px;
+    background-color: #2c3e50;
+    color: white;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid #34495e;
+    border-radius: 15px;
+}
+
+.sidebar a:hover {
+    background-color: #007BFF;
+}
+
+.sidebar a.active {
+    background-color: #1abc9c;
+}
+
+/* Main Content Area */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Footer Styles */
+/* footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} */
+
+/*p1 {
+    background-color: #17b7e3;
+    color: black;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: relative;
+    top: 20px;
+}
+ */
+
+img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 200px;
+}

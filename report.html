@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css files/Report.css">
+    <title>Report - Result Management System</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Result Management System</h1>
+        <p>View and Download Student Reports</p>
+    </header>
+
+    <nav>
+        <a href="result.html" target="_blank">Dashboard</a>
+        <a href="table.html" target="_blank">Manage Results</a>
+        <a href="setting.html" target="_blank">Settings</a>
+        <a href="result.html" target="_blank">Logout</a>
+    </nav>
+
+    <div class="main-content">
+        <h2>Student Results Report</h2>
+
+        <!-- Results Table -->
+        <table class="report-table">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                    <th>Status</th>
+                    <th>Report</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Sample Row 1 -->
+                <tr>
+                    <td>1001</td>
+                    <td>John Doe</td>
+                    <td>Computer Science</td>
+                    <td>85%</td>
+                    <td>Pass</td>
+                    <td><a href="report_1001.pdf" download>Download</a></td>
+                </tr>
+                <!-- Sample Row 2 -->
+                <tr>
+                    <td>1002</td>
+                    <td>Jane Smith</td>
+                    <td>Mathematics</td>
+                    <td>92%</td>
+                    <td>Pass</td>
+                    <td><a href="report_1002.pdf" download>Download</a></td>
+                </tr>
+                <!-- Sample Row 3 -->
+                <tr>
+                    <td>1003</td>
+                    <td>Mark Johnson</td>
+                    <td>Physics</td>
+                    <td>70%</td>
+                    <td>Pass</td>
+                    <td><a href="report_1003.pdf" download>Download</a></td>
+                </tr>
+                <!-- Sample Row 4 -->
+                <tr>
+                    <td>1004</td>
+                    <td>Emily Davis</td>
+                    <td>Biology</td>
+                    <td>56%</td>
+                    <td>Fail</td>
+                    <td><a href="report_1004.pdf" download>Download</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Download All Reports Button -->
+        <button class="download-btn">Download All Reports</button>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css files/add.css">
+    <title>Add Student Result</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Add Student Result</h1>
+    </header>
+
+    <div class="container">
+        <h2>Enter Student Details</h2>
+        <form action="#" method="POST">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required placeholder="Enter student name">
+
+            <label for="rollNumber">Roll Number:</label>
+            <input type="number" id="rollNumber" name="rollNumber" required placeholder="Enter roll number">
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+                <option value="History">History</option>
+                <option value="Geography">Geography</option>
+            </select>
+
+            <label for="marks">Marks Obtained:</label>
+            <input type="number" id="marks" name="marks" required placeholder="Enter marks (out of 100)" max="100">
+
+            <button type="submit" class="btn">Add Result</button>
+            <a href="manage.html"><button type="button" class="btn cancel-btn">Cancel</button></a>
+        </form>
+    </div>
+
+</body>
+
+</html>

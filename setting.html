@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css files/setting.css">
+    <title>Settings - Result Management System</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Result Management System</h1>
+        <p>Admin Panel - Settings</p>
+    </header>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="">Manage Results</a>
+        <a href="settings.html">Settings</a>
+        <a href="logout.html">Logout</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="settings-form">
+            <h2>Update Settings</h2>
+
+            <form action="#" method="POST">
+                <!-- Change Password -->
+                <label for="current-password">Current Password:</label>
+                <input type="password" id="current-password" name="current-password" required>
+
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+
+                <label for="confirm-password">Confirm New Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <!-- Notification Settings -->
+                <label>Notification Settings:</label>
+                <div class="checkbox-group">
+                    <div>
+                        <input type="checkbox" id="email-notifications" name="email-notifications">
+                        <label for="email-notifications">Email Notifications</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sms-notifications" name="sms-notifications">
+                        <label for="sms-notifications">SMS Notifications</label>
+                    </div>
+                </div>
+
+                <!-- Exam Settings -->
+                <label for="exam-duration">Exam Duration (minutes):</label>
+                <input type="number" id="exam-duration" name="exam-duration" min="30" max="180" required>
+
+                <label for="passing-percentage">Passing Percentage (%):</label>
+                <input type="number" id="passing-percentage" name="passing-percentage" min="0" max="100" required>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Save Settings">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Result Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
